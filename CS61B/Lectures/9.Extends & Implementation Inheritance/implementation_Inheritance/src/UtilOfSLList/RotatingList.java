@@ -2,7 +2,7 @@ package UtilOfSLList;
 
 public class RotatingList <Unsigned> extends SLList<Unsigned> {
 //如果是interface就用implements，是类就用extends。
-//extends会将母类(SLList)中的方法，静态变量，实例变量，嵌套类全都继承给子类(RotatingList)。
+//extends会将母类(SLList)中的方法，静态变量，实例变量，嵌套类全都继承给子类(RotatingList)，有private标识符的除外。
 //但是注意，不能继承母类的构造体，所以要求母类的构造体必须有一个不接收任何变量。
 
     public void rotateRight(){
